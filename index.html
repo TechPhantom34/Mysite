@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechPhantom Oyun Sitesi</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #121212;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
+        #gameCanvas {
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #00ff00;
+        }
+        .controls {
+            margin: 10px;
+        }
+        button {
+            background: #00ff00;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>TechPhantom Oyun Dünyası</h1>
+    
+    <div class="controls">
+        <button id="startBtn">OYUNU BAŞLAT</button>
+        <button id="resetBtn">SIFIRLA</button>
+    </div>
+    
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    
+    <script src="game.js"></script>
+</body>
+</html>
